@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    position: absolute;
+    margin-left: 27px;
+    margin-top: -8px;
+    background-color: white;
+    padding-inline: 3px;
+}
+
+.box {
+    border: 1px solid grey;
+    margin: 15px;
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.column_one {
+    display: inline-block;
+    width: 150px;
+}
+
+div {
+    margin-bottom: 8px;
+}
+
+.paddings {
+    padding: 2px
+}
+
+.alignmentY {
+    position: absolute;
+    margin-top: 25px;
+}
+.alignmentX {
+    margin-left: 154px;
+}

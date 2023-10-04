@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    background-color: rgb(22, 158, 42);
+    padding: 16px;
+    margin-top: 16px;
+    display: inline-block;
+    width: 175px;
+}
+
+.login {
+    background-color: rgb(11, 36, 11);
+}
+
+.login:hover {
+    background-color: rgb(27, 198, 53);
+}
+
+.signup:hover {
+    background-color: rgb(27, 198, 53);
+}
+
+.box {
+    width: 400px;
+    margin: 0 auto;
+    background-color: rgb(11, 36, 11);
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+    height: 400px;
+}
+
+input {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 24px;
+    padding: 8px;
+    width: 350px;
+    background-color: rgb(11, 36, 11);
+}
+
+.name input {
+    width: 175px;
+}
+
+h1 {
+    margin-block: 16px;
+}
+
+.name-box {
+    display: inline-block;
+}
+
+.button {
+    background-color: rgb(22, 158, 42);
+    padding: 16px;
+    width: 350px;
+    color: white;
+    
+}
+
+.forgot {
+    color: green;
+    background-color: rgb(11, 36, 11);
+    float: right;
+}

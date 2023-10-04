@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms 2_3</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <main>
+        <form action="">
+            <div>
+                <p>Register form</p>
+                <div class="box">
+                    <div>
+                        <label for="name" class="column_one">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Name" class="paddings">
+                    </div>
+                    <div>
+                        <label for="surname" class="column_one">Surname</label>
+                        <input type="text" name="surname" id="surname" placeholder="Surname" class="paddings">
+                    </div>
+                    <div>
+                        <label for="email" class="column_one">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Email" class="paddings">
+                    </div>
+                    <div>
+                        <span class="column_one">Gender</span>
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" id="male">
+                        <label for="female">Female</label>
+                        <input type="radio" name="gender" id="female">
+                    </div>
+                    <div>
+                        <label for="pic" class="column_one">Picture</label>
+                        <input type="file" name="pic" id="pic">
+                    </div>
+                    <div>
+                        <label for="country" class="column_one">Country</label>
+                        <select name="country" id="country">
+                            <option value="">Germany</option>
+                            <option value="">France</option>
+                            <option value="">USA</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="language" class="column_one alignmentY">Preferred language</label>
+                        <select name="language" id="language" multiple class="paddings alignmentX">
+                            <option value="">HTML</option>
+                            <option value="">CSS</option>
+                            <option value="">JS</option>
+                            <option value="">React</option>
+                        </select>
+                        <span>(To choose more than one use cmd key)</span>
+                    </div>
+                    <div>
+                        <span class="column_one">Field of activity</span>
+                        <input type="checkbox" name="activity" id="activity">
+                        <label for="activity">IT</label>
+                        <input type="checkbox" name="activity" id="activity">
+                        <label for="activity">Design</label>
+                        <input type="checkbox" name="activity" id="activity">
+                        <label for="activity">Other</label>
+                    </div>
+                    <div>
+                        <input type="submit" value="Send" class="paddings">
+                        <input type="button" name="" id="" value="Cancel" class="paddings">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
